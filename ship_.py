@@ -5,7 +5,7 @@ class Ship():
     def __init__(self, ai_setting, screen):
         self.screen = screen
         self.ai_setting = ai_setting
-        self.image = pygame.image.load('D:/pythonProject/Prakticia_projekt/elien.png')
+        self.image = pygame.image.load('elien.png')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
         self.rect.centerx = self.screen_rect.centerx
