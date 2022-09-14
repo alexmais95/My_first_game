@@ -1,7 +1,7 @@
 import pygame
 from setting import Setting
-import game_event as ge
-from ship import Ship
+import event_ as ge
+from ship_ import Ship
 from pygame.sprite import Group
 
 def main_game():

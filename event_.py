@@ -1,6 +1,6 @@
 import pygame
 import sys
-from bullet import Bullet
+from bulet_ import Bullet
 
 
 def game_event(ship, screen, bullets):
